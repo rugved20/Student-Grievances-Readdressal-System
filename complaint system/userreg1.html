@@ -1,0 +1,503 @@
+
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="main.css">
+	<style>
+		.forumm #span{
+			display:inline-block;
+			width:30%;
+		}
+		.forumm input{
+			display:inline-block;
+			width:65%;
+		}
+		body{
+			    background-repeat: no-repeat;
+				background-width:100%;
+				background-height:100%;
+				background-size: cover;				
+		}
+		.container{
+		background:white;
+		margin-top:10px;
+		border:1px solid black;
+		border-radius:10px;
+	}
+	.container p{
+		
+	}
+	.container h3{
+		border-bottom:2px solid #c0c0c0;
+		text-align:center;
+		padding-bottom:7px;
+	}
+
+	input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.3); /* IE */
+  -moz-transform: scale(1.3); /* FF */
+  -webkit-transform: scale(1.3); /* Safari and Chrome */
+  -o-transform: scale(1.3); /* Opera */
+  transform: scale(1.3);
+  padding: 5px;
+}
+		#back{
+			margin:0px;
+			width:100%;
+			height:100%;
+			background:#87b1de;
+			position:absolute;
+			background-size:cover;
+			}
+      *,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #080710;
+}
+.background{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.background .shape{
+	height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+.shape:first-child{
+    background: linear-gradient(
+        #023b5e,
+        #23a2f6
+    );
+    left: -270px;
+    top: -62px;
+	
+}
+.shape:last-child{
+    background: linear-gradient(
+        to right,
+        #ff512f,
+        #f09819
+    );
+    right: -260px;
+    bottom: -778px;
+}
+form{
+    height: 1200px;
+    width: 800px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 100%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    font-weight: bold;
+	border-bottom: 2px solid white; 
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+button{
+    margin-top: 50px;
+    width: 60%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.social{
+  margin-top: 30px;
+  display: flex;
+}
+.social div{
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(255,255,255,0.27);
+  color: #eaf0fb;
+  text-align: center;
+}
+.social div:hover{
+  background-color: rgba(255,255,255,0.47);
+}
+.social .fb{
+  margin-left: 25px;
+}
+.social i{
+  margin-right: 4px;
+}
+.nav-link{
+  color: #eaf0fb;
+}
+
+
+.forumm #span{
+			display:inline-block;
+			width:30%;
+		}
+		.forumm input{
+			display:inline-block;
+			width:65%;
+			margin-left: 120px;
+		}
+		body{
+			    background-repeat: no-repeat;
+				background-width:100%;
+				background-height:100%;
+				background-size: cover;				
+		}
+		.container{
+		background:white;
+		margin-top:10px;
+		border:1px solid black;
+		border-radius:10px;
+	}
+	.container p{
+		
+	}
+	.container h3{
+		border-bottom:2px solid #c0c0c0;
+		text-align:center;
+		padding-bottom:7px;
+	}
+	h1{
+    margin: 0px 0px 10px 0px;
+    padding: 0 100px;
+}
+
+
+
+.input-group{
+    width:990px;
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+    
+}
+.input-group label{
+    flex-basis: 18%;
+     width:30px;
+	 size: 20px;
+}
+.input-group input, .input-group textarea{
+    flex-basis: 40%;
+    border: 0;
+    outline: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #999;
+    background-color: rgb(247, 244, 244);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+
+form button{
+    background: white;
+    color:black;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 10px 40px;
+    outline: 0;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 10px;
+}
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+p,
+label {
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+}
+
+input {
+  margin: 0.4rem;
+}
+#go1{
+	color:black;
+	background-color:white;
+	width: 90px;
+	font-weight: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#btn{
+	width: 480px;
+}
+#r1{
+	height: fit-content;
+
+}
+
+
+	</style>
+</head>
+<body>	
+	<nav class="nav" style="background-color: #023b5e"; height="230px;">
+		<div class="nav-item item1" style="margin-left:5%">
+				<img src="https://indiraicem.ac.in/assets/images/icem/Icem-logo.png" class="logo" width="500px;" onclick='window.open("index.html");' >
+		</div>
+		<div class="nav-item items" style="margin-top: 45px;">
+				<a class="nav-link"   href="userlogin1.html">Student Login</a> <hr><hr>
+		</div>
+			<div class="nav-item items" style="margin-top: 45px;">
+				<a class="nav-link"  href="userreg1.html">Student Registration</a>
+		</div>
+			<div class="nav-item items" style="margin-top: 45px;">
+				<a class="nav-link"   href="adminlogin1.html">ADMIN</a>
+		</div>
+		</nav><br>
+		<div class="background" style="margin-top: 70px;">
+			<div class="shape"></div>
+			<div class="shape"></div>
+		</div>
+	<form onsubmit="myfun()" class="forumm" method="post" id="reg" action="userreg2.php">
+		<form style="margin-top: 470px;" action="adminlogin.php" method="post">
+			<h3 style="color:#0f0;">Student Registration</h3><br>
+
+			<label for="firstname" style="margin-left: 120px;">First Name</label>
+			<input type="text" placeholder="First Name" id="firstname" name="fname" required>
+	  
+			<label for="lastname" style="margin-left: 120px;">Last Name</label>
+			<input type="text" placeholder="Last Name" id="lastname" name="lname" required>
+
+			<label for="username" style="margin-left: 120px;">User Name</label>
+			<input type="text" placeholder="User Name" id="username" name="username" required>
+
+			<label for="Phone" style="margin-left: 120px;">Phone No.</label>
+			<input type="tel" placeholder="Phone No." id="phone" name="phone" required>
+			
+			<label for="Email" style="margin-left: 120px;">Email ID</label>
+			<input type="email" placeholder="Email ID" id="mail" name="email" required>
+
+		  <label for="password" style="margin-left: 120px;">Password</label>
+		  <input type="password" placeholder="Password" id="password" name="pass" required>
+
+		  <label for="cnfpassword" style="margin-left: 120px;"> Confirm Password</label>
+		  <input type="password" placeholder=" Confirm Password" id="password" name="pass" required>
+<br><br>
+<button id="btn">SUBMIT</button>
+
+		</form>
+
+			
+	</div>
+	<script>
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	function myfun()
+	{
+		/////////////
+
+//////////////////////////
+		var ch1=false,ch2=false,ch3=false,ch4=false,ch5=false,ch6=false;
+		var uname=document.getElementById("uname").value;
+		var chkuname=document.getElementById("chkuser");
+		if(uname=="")
+		{
+			chkuname.style.display='inline-block';
+		}
+		else
+		{
+			ch6=true;
+			chkuname.style.display='none';
+		}
+	
+		var fname=document.getElementById("fname").value;
+		var chkfname=document.getElementById("chkfname");
+		var str=new RegExp(/[0-9]/);
+		var forfname=str.test(fname);
+		if(forfname==true)
+		{
+			chkfname.innerHTML="*Only alphabets allowed.";
+			chkfname.style.display='inline-block';
+		}
+		else if(fname=="")
+		{
+			chkfname.innerHTML="*Fill First Name";
+			chkfname.style.display='inline-block';
+		}
+		else
+		{
+			ch1=true;
+			chkfname.style.display='none';
+		}
+	
+	//////////////////////////////////////////////////////////////////////////////////////////////////////
+		var lname=document.getElementById("lname").value;
+		var chklname=document.getElementById("chklname");
+		var str2=new RegExp(/[0-9]/);
+		var forlname=str2.test(lname);
+		if(forlname==true)
+		{
+			chklname.innerHTML="*Only alphabets allowed.";
+			chklname.style.display='inline-block';
+		}
+		else if(lname=="")
+		{
+			chklname.style.display='inline-block';
+		}	
+		else 
+		{
+			ch2=true;
+			chklname.style.display='none';
+		}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		var mail=document.getElementById("mail").value;
+		var chkmail=document.getElementById("chkmail");
+		var formail =new RegExp(/^[a-zA-Z0-9]+@+[a-zA-Z]+\.+[a-z]+$/);
+		var cme=formail.test(mail);
+		if(cme!=true)
+		{
+			chkmail.innerHTML="*Enter Correct syntax of email(abc@xyz.xz)";
+			chkmail.style.display='inline-block';
+		}
+		else if(mail=="")
+		{
+			chkmail.innerHTML="*Fill Email ";
+			chkmail.style.display='inline-block';
+		}	
+		else 
+		{
+			ch3=true;
+			chkmail.style.display='none';
+		}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		var pn=document.getElementById("pn").value;
+		var chkpn=document.getElementById("chkpn");
+		var forpn= new RegExp (/(^[0-9]{3})+([0-9]{8})+$/);
+		var seeme=forpn.test(pn);
+		if(seeme!=true)
+		{
+			chkpn.innerHTML="Enter Phone Number (0xxxyyyyyyy)";
+			chkpn.style.display='inline-block';
+		}else if(pn=="")
+		{
+			chkpn.innerHTML="*Fill Phone Number";
+			chkpn.style.display='inline-block';
+		}
+		else 
+		{
+			ch4=true;
+			chkpn.style.display='none';
+		}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		var pass=document.getElementById("pass").value;
+		var cpass=document.getElementById("cpass").value;
+		var spass=document.getElementById("match");
+		if(pass=="")
+		{
+			
+			spass.innerHTML="*Fill password";
+			spass.style.display='inline-block';
+		}
+		else
+		{
+		if(pass==cpass)
+		{
+			ch5=true;
+			spass.style.display='inline-block';
+			spass.innerHTML="*password matched";
+		}
+		else
+		{
+			spass.style.display='inline-block';
+			spass.innerHTML="*password NOT matched";
+		}
+		}
+		if(ch1==true&&ch2==true&&ch3==true&&ch4==true&&ch5==true&&ch6==true){
+		document.getElementById("reg").submit();
+		
+		}
+		////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// var tab=document.getElementById("tab");
+		// tab.style.display='block';
+		// var efname=document.getElementById("efname");
+		// var elname=document.getElementById("elname");
+		// var ern=document.getElementById("ern");
+		// var epn=document.getElementById("epn");
+		// var email=document.getElementById("email");
+		// var epass=document.getElementById("epass");
+		// efname.innerHTML=fname;
+		// elname.innerHTML=lname;
+		// ern.innerHTML=rn;
+		// epn.innerHTML=pn;
+		// email.innerHTML=mail;
+		// epass.innerHTML=pass;
+		// efname.style.display='inline-block';
+		// elname.style.display='inline-block';
+		// ern.style.display='inline-block';
+		// epn.style.display='inline-block';
+		// email.style.display='inline-block';
+		// epass.style.display='inline-block';
+		
+		
+		
+	}
+</script>
+</body>
+</html>
